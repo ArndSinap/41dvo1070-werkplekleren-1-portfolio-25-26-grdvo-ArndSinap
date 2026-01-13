@@ -221,4 +221,36 @@ a:focus,button:focus{outline:3px solid rgba(138,180,255,0.16);outline-offset:3px
   .social-links{gap:0.5rem}
 }
 
+/* Skills list styling (hard skills / soft skills) */
+.skills-list{
+  list-style:none;
+  margin:0.5rem 0 0 0;
+  padding:0;
+}
+.skills-list li{
+  position:relative;
+  padding-left:1.4rem;
+  margin-bottom:0.6rem;
+  color:#e6eef6;
+  line-height:1.45;
+  font-size:0.98rem;
+}
+/* small accent dot as custom bullet */
+.skills-list li::before{
+  content:'';
+  position:absolute;
+  left:0;
+  top:0.65rem;
+  width:8px;
+  height:8px;
+  background:var(--accent);
+  border-radius:50%;
+  box-shadow:0 0 0 4px rgba(138,180,255,0.04);
+}
+
+/* ensure good spacing on small screens */
+@media(max-width:799px){
+  .skills-list li{font-size:0.98rem}
+}
+
 /* End of stylesheet */
