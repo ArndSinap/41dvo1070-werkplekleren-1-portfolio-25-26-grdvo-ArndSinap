@@ -1,0 +1,9 @@
+Privacybeleid — Portfolio Arnd Sinap
+
+- Geen tracking of analytics actief op deze site.
+- Contactgegevens (e-mail) worden alleen gebruikt om op berichten te antwoorden.
+- Er worden geen persoonlijke gegevens gedeeld met derden zonder expliciete toestemming.
+- Deze site is een statische portfolio gepubliceerd via GitHub Pages; verwijder of pas contactgegevens aan naar behoefte.
+
+Contact: naam@example.com
+
