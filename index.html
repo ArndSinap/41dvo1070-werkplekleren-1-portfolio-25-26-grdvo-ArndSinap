@@ -1,192 +1,173 @@
 <!doctype html>
 <html lang="nl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio — Arnd Sinap (voorbeeld)</title>
-  <!-- Local custom styles (zonder Bootstrap) -->
-  <link rel="stylesheet" href="index.css">
-  <meta name="description" content="Portfolio van een student Digitale Vormgeving — creatieve en leergierige designer/programmeur.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio — Arnd Sinap (voorbeeld)</title>
+    <meta name="description" content="Portfolio van een student Digitale Vormgeving — creatieve en leergierige designer/programmeur.">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <header>
-    <nav class="site-nav">
-      <div class="container nav-inner">
-        <a class="brand" href="#home">Arnd Sinap</a>
+<header>
+    <nav class="site-nav" role="navigation" aria-label="Hoofdmenu">
+        <div class="container nav-inner">
+            <a class="brand" href="#home">Sinap Arnd</a>
 
-        <!-- Pure CSS toggle: hidden checkbox + label as hamburger -->
-        <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-hidden="true">
-        <label for="nav-toggle" class="nav-toggle" aria-hidden="true">☰</label>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-hidden="true">
+            <label for="nav-toggle" class="nav-toggle" aria-controls="nav-list" aria-label="Menu">☰</label>
 
-        <ul id="nav-list" class="nav-list">
-          <li><a href="#about">Over mij</a></li>
-          <li><a href="#projects">Projecten</a></li>
-          <li><a href="#special">hobby</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-
-      </div>
+            <ul id="nav-list" class="nav-list">
+                <li><a href="#about">Over mij</a></li>
+                <li><a href="#projects">Projecten</a></li>
+                <li><a href="#special">Hobby</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <!-- Hero / Fullscreen header -->
-    <section id="home" class="hero">
-      <div class="overlay"></div>
-      <div class="container hero-inner text-center text-white">
-        <img class="avatar" src="/assets/profile_picture.jpg" alt="Profielfoto Arnd" width="160" height="160">
-        <h1 class="hero-title">Sinap Arnd</h1>
-        <p class="hero-sub">Student Digitale Vormgeving</p>
-      </div>
+    <section id="home" class="hero" aria-label="Intro">
+        <div class="overlay"></div>
+        <div class="container hero-inner text-center text-white">
+            <img class="avatar" src="/assets/profile_picture.jpg" alt="Profielfoto Arnd" width="160" height="160">
+            <h1 class="hero-title">Sinap Arnd</h1>
+            <p class="hero-sub">Student Digitale Vormgeving</p>
+        </div>
     </section>
-  </header>
+</header>
 
-  <main>
+<main>
     <section id="about" class="py">
-      <div class="container">
-        <h2>Over mij</h2>
-        <p class="lead">Als student Digitale Vormgeving haal ik energie uit het ontwerpen van visuele content die mensen aanspreekt. Ik experimenteer graag met nieuwe stijlen en digitale technieken en ben altijd op zoek naar manieren om mijn vaardigheden te verbeteren. Samenwerken en creatief meedenken zijn voor mij vanzelfsprekend.</p>
+        <div class="container">
+            <h2>Over mij</h2>
+            <p class="lead">Als student Digitale Vormgeving haal ik energie uit het ontwerpen van visuele content die mensen aanspreekt. Ik experimenteer graag met nieuwe stijlen en digitale technieken en ben altijd op zoek naar manieren om mijn vaardigheden te verbeteren. Samenwerken en creatief meedenken zijn voor mij vanzelfsprekend.</p>
 
-        <article class="grid-two gap">
-          <div>
-            <h3>Waarom deze opleiding?</h3>
-            <p>Ik heb voor de opleiding Digitale Vormgeving gekozen omdat ik mijn creativiteit wil combineren met digitale technologie. Het ontwerpen van visuele concepten en het werken met digitale tools spreken mij erg aan.</p>
-          </div>
-          <div>
-            <h3>Waarom ik een goede designer ben</h3>
-            <p>Ik ben een goede designer omdat ik creativiteit combineer met een sterk oog voor detail. Ik denk conceptueel, werk gestructureerd en zorg ervoor dat mijn ontwerpen zowel visueel aantrekkelijk als functioneel zijn.</p>
-          </div>
-        </article>
+            <article class="grid-two gap">
+                <div>
+                    <h3>Waarom deze opleiding?</h3>
+                    <p>Ik heb voor de opleiding Digitale Vormgeving gekozen omdat ik mijn creativiteit wil combineren met digitale technologie. Het ontwerpen van visuele concepten en het werken met digitale tools spreken mij erg aan.</p>
+                </div>
+                <div>
+                    <h3>Waarom ik een goede designer ben</h3>
+                    <p>Ik ben een goede designer omdat ik creativiteit combineer met een sterk oog voor detail. Ik denk conceptueel, werk gestructureerd en zorg ervoor dat mijn ontwerpen zowel visueel aantrekkelijk als functioneel zijn.</p>
+                </div>
+            </article>
 
-        <!-- Nieuwe sectie: Hard skills & Soft skills -->
-        <article class="grid-two" aria-labelledby="skills-heading">
-          <div>
-            <h3 id="skills-heading">Hard skills</h3>
-            <ul class="skills-list">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
-              <li>Photoshop</li>
-              <li>Illustrator</li>
-              <li>Figma</li>
-            </ul>
-          </div>
+            <article class="grid-two" aria-labelledby="skills-heading">
+                <div>
+                    <h3 id="skills-heading">Hard skills</h3>
+                    <ul class="skills-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
 
-          <div>
-            <h3>Soft skills</h3>
-            <ul class="skills-list">
-              <li>Creatief denken en visueel conceptueel werk</li>
-              <li>Samenwerken en duidelijke communicatie</li>
-              <li>Probleemoplossend vermogen</li>
-              <li>Doorzettingsvermogen en discipline</li>
-              <li>Nieuwsgierig en leergierig</li>
-            </ul>
-          </div>
-        </article>
-
-      </div>
+                <div>
+                    <h3>Soft skills</h3>
+                    <ul class="skills-list">
+                        <li>Creatief denken en visueel conceptueel werk</li>
+                        <li>Samenwerken en duidelijke communicatie</li>
+                        <li>Probleemoplossend vermogen</li>
+                        <li>Doorzettingsvermogen en discipline</li>
+                        <li>Nieuwsgierig en leergierig</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
     </section>
 
     <section id="projects" class="py bg-light">
-      <div class="container">
-        <h2>Projecten</h2>
+        <div class="container">
+            <h2>Projecten</h2>
 
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-images">
+                        <img src="/assets/dashboard.png" alt="Dashboard CV screenshot">
+                        <img src="/assets/dashboard_schets.png" alt="Schets van dashboard CV">
+                    </div>
+                    <div class="project-body">
+                        <h3>Dashboard CV</h3>
+                        <p class="meta">Vak: Werkplekleren 1</p>
+                        <p>In mijn dashboard-cv heb ik mijn vaardigheden, ervaringen en persoonlijke stijl visueel weergegeven. Ik heb gekozen voor een overzichtelijke layout waarin informatie snel en duidelijk te lezen is.</p>
+                    </div>
+                </article>
 
-        <div class="projects-grid">
-          <!-- Project 1 -->
-          <article class="project-card">
-            <div class="project-images">
-              <img src="/assets/dashboard.png" alt="Project 1 afbeelding 1">
-              <img src="/assets/dashboard_schets.png" alt="Project 1 afbeelding 2">
-            </div>
-            <div class="project-body">
-              <h3>Dashboard CV</h3>
-              <p class="meta">Vak: Werklplekleren 1</p>
-              <p>In mijn dashboard-cv heb ik mijn vaardigheden, ervaringen en persoonlijke stijl visueel weergegeven. Ik heb gekozen voor een overzichtelijke layout waarin informatie snel en duidelijk te lezen is.
-              </p>
-            </div>
-          </article>
+                <article class="project-card">
+                    <div class="project-images">
+                        <img src="/assets/portfolio.png" alt="Portfolio website screenshot">
+                        <img src="/assets/portfolio_coding.png" alt="Portfolio code weergave">
+                    </div>
+                    <div class="project-body">
+                        <h3>Portfolio Website</h3>
+                        <p class="meta">Vak: Werkplekleren 1</p>
+                        <p>In mijn portfolio-website heb ik mijn werk overzichtelijk gepresenteerd met een duidelijke structuur en een visuele stijl die past bij mij als designer. De website laat zowel mijn creativiteit als mijn projecten zien.</p>
+                    </div>
+                </article>
 
-          <!-- Project 2 -->
-          <article class="project-card">
-            <div class="project-images">
-              <img src="/assets/portfolio.png" alt="Project 2 afbeelding 1">
-              <img src="/assets/portfolio_coding.png" alt="Project 2 afbeelding 2">
+                <article class="project-card">
+                    <div class="project-images">
+                        <img src="/assets/gip2.jpg" alt="Pneumatiek project foto">
+                        <img src="/assets/gip1.JPEG" alt="Pneumatiek detail">
+                    </div>
+                    <div class="project-body">
+                        <h3>Pneumatisch systeem</h3>
+                        <p class="meta">GIP secundair onderwijs</p>
+                        <p>In mijn GIP ontwierp en bouwde ik een pneumatisch systeem dat kogellagers sorteert en op een transportband plaatst. Hierbij combineerde ik technisch inzicht met ontwerp en probleemoplossend denken.</p>
+                    </div>
+                </article>
             </div>
-            <div class="project-body">
-              <h3>Portfolio Website</h3>
-              <p class="meta">Vak: Werkplekleren 1</p>
-              <p>In mijn portfolio-website heb ik mijn werk overzichtelijk gepresenteerd met een duidelijke structuur en een visuele stijl die past bij mij als designer. De website laat zowel mijn creativiteit als mijn projecten zien.</p>
-            </div>
-          </article>
-
-          <!-- Project 3 (non-school pneumatic GIP) -->
-          <article class="project-card">
-            <div class="project-images">
-              <img src="/assets/gip2.jpg" alt="Pneumatiek project foto">
-              <img src="/assets/gip1.JPEG" alt="Pneumatiek detail">
-            </div>
-            <div class="project-body">
-              <h3>Pneumatisch systeem</h3>
-              <p class="meta">GIP secundair onderwijs</p>
-              <p>In mijn GIP in het secundair onderwijs heb ik een pneumatisch systeem ontworpen en gebouwd dat kogellagers automatisch sorteert en op een transportband plaatst. Hierbij combineerde ik technisch inzicht met ontwerp en probleemoplossend denken.</p>
-            </div>
-          </article>
         </div>
-      </div>
     </section>
 
     <section id="special" class="py">
-      <div class="container">
-        <h2>Hobby</h2>
+        <div class="container">
+            <h2>Hobby</h2>
+            <article class="hobby">
+                <p>Boksen is een hobby waar ik veel voldoening uit haal omdat het mij zowel fysiek als mentaal uitdaagt. Het helpt me mijn focus te behouden, stress los te laten en mijn doorzettingsvermogen te versterken. Daarnaast leer ik discipline, zelfcontrole en het stellen van doelen, wat ik ook in mijn studie en dagelijkse leven toepas. Hieronder ziet u een paar voorbeelden van mijn wedstrijden en een extra training bij mijn thuis.</p>
 
-        <article class="hobby">
-          <p>Boksen is een hobby waar ik veel voldoening uit haal omdat het mij zowel fysiek als mentaal uitdaagt. Het helpt me mijn focus te behouden, stress los te laten en mijn doorzettingsvermogen te versterken. Daarnaast leer ik discipline, zelfcontrole en het stellen van doelen, wat ik ook in mijn studie en dagelijkse leven toepas. Hieronder ziet u een paar voorbeelden van mijn wedstrijden en een extra training bij mijn thuis.</p>
-
-          <div class="project-images hobby-images" aria-hidden="false">
-            <img src="/assets/boks1.jpg" alt="gewonnen kamp" />
-            <img src="/assets/boks2.jpg" alt="thuis training" />
-            <img src="/assets/boks3.jpg" alt="Bokszaal" />
-          </div>
-        </article>
+                <div class="project-images hobby-images" aria-hidden="false">
+                    <img src="/assets/boks1.jpg" alt="Gewonnen kamp">
+                    <img src="/assets/boks2.jpg" alt="Thuis training">
+                    <img src="/assets/boks3.jpg" alt="Bokszaal">
+                </div>
+            </article>
         </div>
     </section>
 
-
-
-      <section id="contact" class="py bg-light">
-      <div class="container">
-
-          <h2>Contact</h2>
-
+    <section id="contact" class="py bg-light">
+        <div class="container">
+            <h2>Contact</h2>
             <p class="contact-item">Telefoon: <a href="tel:+32123456789">+32 123 45 6789</a></p>
             <p class="contact-item">E-mail: <a href="mailto:arnd.sinap@hotmail.com">arnd.sinap@hotmail.com</a></p>
-          <div class="contact-info">
-            <div class="social-links" aria-label="Sociale profielen">
-              <a class="social-link" href="https://github.com/gebruikersnaam" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <!-- GitHub SVG -->
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.58.11.78-.25.78-.55 0-.27-.01-1-.02-1.95-3.2.7-3.88-1.54-3.88-1.54-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.25 3.33.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.3 1.18-3.11-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 2.87-.39c.98 0 1.97.13 2.88.39 2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.77.11 3.06.74.81 1.18 1.85 1.18 3.11 0 4.43-2.69 5.41-5.25 5.69.41.35.77 1.03.77 2.08 0 1.5-.01 2.71-.01 3.08 0 .3.2.67.79.55C20.21 21.38 23.5 17.08 23.5 12 23.5 5.73 18.27.5 12 .5z" fill="#ffffff"/>
-                </svg>
-              </a>
 
-              <a class="social-link" href="https://www.linkedin.com/in/gebruikersnaam" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <!-- LinkedIn SVG -->
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                  <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8.25h5V24H0V8.25zM8.25 8.25h4.79v2.11h.07c.67-1.27 2.31-2.61 4.75-2.61 5.07 0 6 3.34 6 7.68V24h-5V17.2c0-1.61-.03-3.68-2.24-3.68-2.24 0-2.58 1.75-2.58 3.56V24h-5V8.25z" fill="#ffffff"/>
-                </svg>
-              </a>
+            <div class="contact-info">
+                <div class="social-links" aria-label="Sociale profielen">
+                    <a class="social-link" href="https://github.com/ArndSinap" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.58.11.78-.25.78-.55 0-.27-.01-1-.02-1.95-3.2.7-3.88-1.54-3.88-1.54-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.25 3.33.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.3 1.18-3.11-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 2.87-.39c.98 0 1.97.13 2.88.39 2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.77.11 3.06.74.81 1.18 1.85 1.18 3.11 0 4.43-2.69 5.41-5.25 5.69.41.35.77 1.03.77 2.08 0 1.5-.01 2.71-.01 3.08 0 .3.2.67.79.55C20.21 21.38 23.5 17.08 23.5 12 23.5 5.73 18.27.5 12 .5z" fill="#ffffff"/>
+                        </svg>
+                    </a>
+
+                    <a class="social-link" href="https://www.linkedin.com/in/arnd-sinap-761924314/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8.25h5V24H0V8.25zM8.25 8.25h4.79v2.11h.07c.67-1.27 2.31-2.61 4.75-2.61 5.07 0 6 3.34 6 7.68V24h-5V17.2c0-1.61-.03-3.68-2.24-3.68-2.24 0-2.58 1.75-2.58 3.56V24h-5V8.25z" fill="#ffffff"/>
+                        </svg>
+                    </a>
+                </div>
             </div>
-
-          </div>
-      </div>
+        </div>
     </section>
-  </main>
+</main>
 
-  <footer class="site-footer">
+<footer class="site-footer">
     <div class="container footer-inner">
-      <p>&copy; <time datetime="2026">2026</time> Arnd Sinap</p>
-      <p><a class="link" href="privacy.txt">Privacy</a></p>
+        <p>&copy; <time datetime="2026">2026</time> Arnd Sinap</p>
+        <p><a class="link" href="privacy.txt">Privacy</a></p>
     </div>
-  </footer>
-
+</footer>
 </body>
 </html>
