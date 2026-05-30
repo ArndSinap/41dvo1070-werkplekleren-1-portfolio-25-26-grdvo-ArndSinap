@@ -1,0 +1,378 @@
+<!doctype html>
+<!-- File: `Index.html` - Volledige portfolio single-page (Nederlands) -->
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sinap Arnd — Portfolio</title>
+  <meta name="description" content="Portfolio van een student Digitale Vormgeving uit Tienen — PXL Hasselt. WPL2 & WPL3 stageklaar." />
+  <!-- Basic SEO, theme colors -->
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%92%BB%3C/text%3E%3C/svg%3E" />
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <!-- Scroll progress -->
+  <div id="progress" aria-hidden="true"></div>
+
+  <header role="banner">
+    <div class="nav-inner" role="navigation" aria-label="Hoofd navigatie">
+      <div class="brand" aria-hidden="false">
+        <div class="logo" aria-hidden="true">SA</div>
+        <div>
+          <div style="font-weight:800">Sinap Arnd</div>
+          <div style="font-size:0.8rem; color:var(--muted)">Student Digitale Vormgeving — PXL Hasselt</div>
+        </div>
+      </div>
+
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <a href="#hero" data-link>Home</a>
+          <a href="#about" data-link>Over mij</a>
+          <a href="#projects" data-link>Projecten</a>
+          <a href="#wpl2" data-link>WPL2 Case</a>
+          <a href="#free" data-link>Hobby's</a>
+          <a href="#wpl" data-link>WPL1 &amp; WPL2</a>
+          <a href="#contact" data-link>Contact</a>
+        </div>
+      </nav>
+
+      <div class="controls">
+        <!-- Removed theme toggle button to enforce a fully light-only theme -->
+        <button id="menuToggle" class="hamburger" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="mobile-menu" role="menu" aria-hidden="true">
+      <a href="#hero" role="menuitem">Home</a>
+      <a href="#about" role="menuitem">Over mij</a>
+      <a href="#projects" role="menuitem">Projecten</a>
+      <a href="#wpl2" role="menuitem">WPL2 Case</a>
+      <a href="#free" role="menuitem">Hobby's</a>
+      <a href="#wpl" role="menuitem">WPL1 &amp; WPL2</a>
+      <a href="#contact" role="menuitem">Contact</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="hero" class="container hero" aria-labelledby="heroHeading">
+       <div>
+        <h1 id="heroHeading">Sinap Arnd</h1>
+        <p class="tagline">Graphic designer &amp; Brand designer — Student Digitale Vormgeving</p>
+        <p class="lead">Student uit Tienen. Interesse in branding, graphic design en UI/UX. <br>Stagezoekend voor WPL3 &amp; WPL4.</p>
+        <div class="cta">
+          <a class="btn" href="#projects">Bekijk mijn projecten</a>
+          <a class="btn secondary" href="#contact">Contacteer mij</a>
+        </div>
+
+        <div style="margin-top:1.5rem; color:var(--muted); font-size:0.95rem;">
+          <strong>Beschikbaar:</strong> september 2026 — juli 2027 &nbsp; • &nbsp; Stage klaar voor WPL3/WPL4
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Profiel kaart met foto">
+        <div class="profile" role="img" aria-label="Professionele foto placeholder">
+            <img src="assets/me.PNG" alt="Profile picture">
+        </div>
+        <div style="width:100%; display:flex; gap:0.6rem; justify-content:space-between; align-items:center;">
+          <div style="font-weight:700">Interesses</div>
+          <div style="color:var(--muted); font-size:0.95rem">Branding • Graphic design • UI/UX</div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" class="container" aria-labelledby="aboutTitle">
+      <h2 id="aboutTitle" class="section-title">Over mij</h2>
+      <p class="lead">Als student Digitale Vormgeving haal ik energie uit het ontwerpen van visuele content die mensen aanspreekt. Ik experimenteer graag met nieuwe stijlen en digitale technieken en ben altijd op zoek naar manieren om mijn vaardigheden te verbeteren. Samenwerken en creatief meedenken zijn voor mij vanzelfsprekend.</p>
+
+      <div class="about-grid">
+        <div>
+          <h3 style="margin-top:0">Achtergrond</h3>
+          <p style="color:var(--muted)">Ik studeerde eerst Lichamelijke Opvoeding en Bewegingswetenschappen aan de KU Leuven. Creativiteit en design hebben mij altijd geboeid, waardoor ik uiteindelijk mijn passie heb gevolgd richting digitale vormgeving.</p>
+
+          <h3 style="margin-top:1rem">Vaardigheden</h3>
+          <div style="display:flex; gap:1rem; margin-bottom:1rem;">
+            <div style="flex:1; background:var(--card); padding:0.9rem; border-radius:10px; box-shadow:var(--shadow);">
+              <strong>Design</strong>
+              <p style="margin:0.6rem 0 0 0; color:var(--muted)">UI/UX, Graphic design, Branding</p>
+            </div>
+            <div style="flex:1; background:var(--card); padding:0.9rem; border-radius:10px; box-shadow:var(--shadow);">
+              <strong>Development</strong>
+              <p style="margin:0.6rem 0 0 0; color:var(--muted)">HTML, CSS, JavaScript, SQL</p>
+            </div>
+          </div>
+
+          <h3 style="margin-top:1rem">Technologieën</h3>
+          <div class="skills" aria-hidden="false">
+
+              <span class="skill">Photoshop</span>
+              <span class="skill">Illustrator</span>
+              <span class="skill">Indesign</span>
+            <span class="skill">Figma</span>
+              <span class="skill">SQL</span>
+              <span class="skill">HTML</span>
+              <span class="skill">CSS</span>
+              <span class="skill">JavaScript</span>
+          </div>
+        </div>
+
+        <aside aria-label="Highlights" style="display:flex; flex-direction:column; gap:0.8rem;">
+          <div style="background:var(--card); padding:1rem; border-radius:12px; box-shadow:var(--shadow);">
+            <strong>CV</strong>
+
+            <div style="margin-top:0.6rem; display:flex; gap:0.5rem;">
+              <a class="btn secondary" href="#" role="button" aria-label="Download CV (placeholder)">Download CV</a>
+            </div>
+          </div>
+
+          <div style="background:var(--card); padding:1rem; border-radius:12px; box-shadow:var(--shadow);">
+            <strong>Contact</strong>
+            <p style="margin:0.5rem 0 0 0; color:var(--muted)">Mail: arnd.sinap@pxl.be</p>
+              <p style="margin:0.5rem 0 0 0; color:var(--muted)">telefoon: 0472 33 96 02</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="projects" class="container" aria-labelledby="projectsTitle">
+      <h2 id="projectsTitle" class="section-title">Projecten</h2>
+      <p class="lead">Selectie van mijn leukste projecten.</p>
+
+      <div class="projects-grid" role="list">
+        <!-- Project 1 -->
+        <article class="project">
+          <div class="thumb" aria-hidden="false">
+              <img src="/assets/Sinap2.png" alt="Sinap branding">
+          </div>
+          <h3 id="p1" style="margin:0.6rem 0 0 0">Branding Sinap</h3>
+          <p style="color:var(--muted); margin:0.4rem 0 0 0">Volledig brandbook van Sinap, mijn personal brand als graphic designer.</p>
+          <div class="tags">
+            <span class="tag">Indesign</span><span class="tag">Illustrator</span><span class="tag">Photoshop</span>
+          </div>
+          <div style="margin-top:0.7rem; display:flex; gap:0.5rem;">
+            <a class="btn secondary" href="#" aria-label="Bekijk project 1">PDF</a>
+
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project">
+          <div class="thumb"><img src="/assets/Modeshow.jpg" alt="Affiche modeshow"></div>
+          <h3 id="p2" style="margin:0.6rem 0 0 0">Affiche modeshow Bijoutiful</h3>
+          <p style="color:var(--muted); margin:0.4rem 0 0 0">Affiche in A4-formaat voor de modeshow van Bijoutiful te promoten.</p>
+          <div class="tags"><span class="tag">Photoshop</span><span class="tag">Illustrator</span></div>
+          <div style="margin-top:0.7rem; display:flex; gap:0.5rem;">
+            <a class="btn secondary" href="#" aria-label="Bekijk project 2">PDF</a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project">
+          <div class="thumb"><img src="/assets/SinapBV.png" alt="Logo  Tuinwerken Sinap bv"></div>
+          <h3 id="p3" style="margin:0.6rem 0 0 0">Logo Tuinwerken Sinap bv</h3>
+          <p style="color:var(--muted); margin:0.4rem 0 0 0">Logo voor Tuinwerken Sinap bv. Dit is een bedrijf dat tuinonderhoud en tuinaanleg doet, maar ook grondwerken en afbraakwerken.</p>
+          <div class="tags"><span class="tag">Illustrator</span></div>
+          <div style="margin-top:0.7rem; display:flex; gap:0.5rem;">
+          </div>
+        </article>
+
+          <!-- Project 4 -->
+          <article class="project">
+              <div class="thumb"><img src="/assets/Font.jpg" alt=""></div>
+              <h3 id="p4" style="margin:0.6rem 0 0 0">Eigen futuristic font</h3>
+              <p style="color:var(--muted); margin:0.4rem 0 0 0">Eigen futuristic font ontworpen.</p>
+              <div class="tags"><span class="tag">Illustrator</span></div>
+              <div style="margin-top:0.7rem; display:flex; gap:0.5rem;">
+              </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project">
+              <div class="thumb"><img src="/assets/CVsinap.jpg" alt="CV"></div>
+              <h3 id="p5" style="margin:0.6rem 0 0 0">CV</h3>
+              <p style="color:var(--muted); margin:0.4rem 0 0 0">Mijn persoonlijk CV.</p>
+              <div class="tags"><span class="tag">Illustrator</span></div>
+              <div style="margin-top:0.7rem; display:flex; gap:0.5rem;">
+                  <a class="btn secondary" href="#" aria-label="Bekijk project 5">PDF</a>
+              </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project">
+              <div class="thumb"><img src="/assets/Kaartspel.png" alt="Kaartspel"></div>
+              <h3 id="p6" style="margin:0.6rem 0 0 0">Kaartspel Noorse mythologie</h3>
+              <p style="color:var(--muted); margin:0.4rem 0 0 0">Traditioneel kaartspel in het thema van de Noorse mythologie voor een viking brasserie in Noorwegen. </p>
+              <div class="tags"><span class="tag">Photoshop</span><span class="tag">Illustrator</span></div>
+              <div style="margin-top:0.7rem; display:flex; gap:0.5rem;">
+                  <a class="btn secondary" href="#" aria-label="Bekijk project 6">PDF</a>
+              </div>
+          </article>
+
+          <!-- Project 7 -->
+          <article class="project">
+              <div class="thumb"><img src="/assets/Pommelien2.png" alt="Pommelien"></div>
+              <h3 id="p7" style="margin:0.6rem 0 0 0">Branding Pommelien Thijs</h3>
+              <p style="color:var(--muted); margin:0.4rem 0 0 0">Volledig brandbook voor pommelien Thijs.</p>
+              <div class="tags"><span class="tag">Photoshop</span><span class="tag">Illustrator</span><span class="tag">Indesign</span></div>
+              <div style="margin-top:0.7rem; display:flex; gap:0.5rem;">
+                  <a class="btn secondary" href="#" aria-label="Bekijk project 7">PDF</a>
+              </div>
+          </article>
+
+      </div>
+    </section>
+
+    <section id="wpl2" class="container" aria-labelledby="wpl2Title">
+      <h2 id="wpl2Title" class="section-title">WPL2 Case</h2>
+      <div class="case-grid">
+        <div>
+          <h3>Beschrijving van de case</h3>
+          <p class="lead" style="margin-bottom:0.6rem; color:var(--muted)">Ruimte voor 150-400 woorden — beschrijf hier de uitdaging, context en doelstellingen van de case. Voorbeeldinhoud: Deze case onderzoekt de gebruikersbehoeften voor een lokale dienstverlener en ontwikkelt een digitale oplossing om de toegankelijkheid en conversie te verbeteren. Het project omvat research, wireframes, high-fidelity UI en een werkend prototype.</p>
+
+          <h3 style="margin-top:1rem">Mijn aandeel</h3>
+          <p style="color:var(--muted)">Ruimte voor 150-400 woorden — mijn rol: front-end ontwikkeling, interactieontwerp, visual design en projectcoördinatie binnen het team. Ik implementeerde componenten, verzorgde de responsive layout en schreef documentatie voor overdracht.</p>
+          <h3 style="margin-top:1rem">Wat ik geleerd heb</h3>
+          <ul style="color:var(--muted); margin-top:0.5rem;">
+            <li>Technische skills: geavanceerd CSS, component-driven development, versiebeheer met Git.</li>
+            <li>Samenwerken: taken opsplitsen, code reviews, pair-programming.</li>
+            <li>Communicatie & planning: sprintplanning, user testing, feedback loops.</li>
+          </ul>
+        </div>
+
+        <aside>
+          <h3>Finale deliverables</h3>
+          <div class="deliverables" role="list">
+            <div class="doc-card" role="listitem">
+              <div>
+                <strong>Projectrapport (PDF)</strong>
+                <div style="color:var(--muted); font-size:0.9rem">Samenvatting en resultaten</div>
+              </div>
+              <a class="btn" href="#" aria-label="Download PDF (placeholder)">PDF</a>
+            </div>
+
+            <div class="doc-card">
+              <div>
+                <strong>Slides</strong>
+                <div style="color:var(--muted); font-size:0.9rem">Presentatie</div>
+              </div>
+              <a class="btn" href="#" aria-label="Bekijk slides (placeholder)">Slides</a>
+            </div>
+
+            <div class="doc-card">
+              <div>
+                <strong>Documentatie</strong>
+                <div style="color:var(--muted); font-size:0.9rem">Code &amp; opdrachten</div>
+              </div>
+              <a class="btn secondary" href="#" aria-label="Open documentatie (placeholder)">Docs</a>
+            </div>
+
+            <div style="margin-top:0.6rem;">
+              <a class="btn" href="#" aria-label="Bekijk eindresultaat (placeholder)">Eindresultaat</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="free" class="container" aria-labelledby="freeTitle">
+      <h2 id="freeTitle" class="section-title">Hobby's</h2>
+      <p class="lead">Ik boks regelmatig en ga vaak lopen — beiden helpen mij om mentaal en fysiek scherp te blijven. Boksen geeft me discipline en focus, terwijl hardlopen ruimte biedt om ideeën te verwerken en energie op te laden.</p>
+
+      <div class="free-grid" aria-label="Hobby foto galerij">
+        <figure>
+          <img class="hobby-photo" src="assets/Boks2.jpg" alt="Boks kamp Boutersem">
+          <figcaption class="muted">Boks kamp boutersem</figcaption>
+        </figure>
+        <figure>
+          <img class="hobby-photo" src="assets/Boks1.jpg" alt="Boks kamp Mortsel">
+          <figcaption class="muted">Boks kamp Mortsel</figcaption>
+        </figure>
+        <figure>
+          <img class="hobby-photo" src="assets/marathon.PNG" alt="Marathon Leuven 2026">
+          <figcaption class="muted">Marathon Leuven</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="wpl" class="container" aria-labelledby="wplTitle">
+      <h2 id="wplTitle" class="section-title">WPL1 &amp; WPL2</h2>
+      <p class="lead">Eindreflectie, opdrachten en downloadlinks.</p>
+
+      <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+        <div style="flex:1; min-width:220px;">
+          <div style="background:var(--card); padding:1rem; border-radius:12px; box-shadow:var(--shadow);">
+            <strong>Eindreflectie WPL2</strong>
+            <p style="color:var(--muted); margin:0.5rem 0">Reflectie over proces en resultaten.</p>
+            <a class="btn" href="#" aria-label="Download eindreflectie WPL2 (placeholder)">Download PDF</a>
+          </div>
+        </div>
+        <div style="flex:1; min-width:220px;">
+          <div style="background:var(--card); padding:1rem; border-radius:12px; box-shadow:var(--shadow);">
+            <strong>WPL1 opdrachten</strong>
+            <p style="color:var(--muted); margin:0.5rem 0">Overzicht en downloads (ZIP/PDF).</p>
+            <div style="display:flex; gap:0.5rem;">
+              <a class="btn secondary" href="#" aria-label="Download WPL1 ZIP (placeholder)">ZIP</a>
+              <a class="btn" href="#" aria-label="Download WPL1 PDF (placeholder)">PDF</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container" aria-labelledby="contactTitle">
+      <h2 id="contactTitle" class="section-title">Contact</h2>
+
+
+      <div class="contact-grid">
+        <div class="contact-left">
+          <div class="contact-card">
+            <div>
+
+              <div style="color:var(--muted); margin-top:0.4rem">Mail: <a href="mailto:arnd.sinap@pxl.be">arnd.sinap@pxl.be</a></div>
+              <div style="color:var(--muted); margin-top:0.35rem">Telefoon: <a href="tel:+32472339602">0472 33 96 02</a></div>
+
+              <div class="contact-actions" style="margin-top:0.8rem; display:flex; gap:0.5rem; flex-wrap:wrap;">
+                <a class="btn" href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a class="btn" href="#" aria-label="Download CV">CV (PDF)</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info-cards">
+            <div class="mini-card">
+              <strong>Locatie</strong>
+              <div class="muted">Tienen, België</div>
+            </div>
+            <div class="mini-card">
+              <strong>Beschikbaarheid</strong>
+              <div class="muted">Stage: WPL3 &amp; WPL4</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div style="max-width:var(--max-width); margin:0 auto; padding:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap;">
+        <div>© <strong>Sinap Arnd</strong> — Student Digitale Vormgeving</div>
+        <div class="socials" style="display:flex; gap:0.6rem; align-items:center;">
+          <a href="#" class="secondary" aria-label="GitHub (placeholder)">GitHub</a>
+          <a href="#" class="secondary" aria-label="LinkedIn (placeholder)">LinkedIn</a>
+          <button id="backTop" class="btn secondary" aria-label="Back to top">Back to top</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top floating button -->
+  <button id="toTop" aria-label="Terug naar boven" title="Terug naar boven">↑</button>
+
+  <!-- External JS -->
+  <script src="Index.js"></script>
+</body>
+</html>
