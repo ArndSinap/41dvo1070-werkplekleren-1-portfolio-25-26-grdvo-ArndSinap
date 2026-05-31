@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>WPL1 &amp; WPL2 — Sinap Arnd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+  <header role="banner">
+    <div class="nav-inner" role="navigation" aria-label="Hoofd navigatie">
+      <div class="brand">
+        <div class="logo">SA</div>
+        <div>
+          <div style="font-weight:800">Sinap Arnd</div>
+          <div style="font-size:0.8rem; color:var(--muted)">Student Digitale Vormgeving — PXL Hasselt</div>
+        </div>
+      </div>
+
+      <nav>
+        <div class="nav-links">
+          <a href="Index.html#hero">Home</a>
+          <a href="Index.html#about">Over mij</a>
+          <a href="Index.html#projects">Projecten</a>
+          <a href="Index.html#wpl2">WPL2 Case</a>
+          <a href="Index.html#free">Hobby's</a>
+          <a href="WPL1%20%26%20WPL2.html">WPL1 &amp; WPL2</a>
+          <a href="Index.html#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="controls">
+        <button id="menuToggle" class="hamburger" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu" role="menu" aria-hidden="true">
+      <a href="Index.html#hero" role="menuitem">Home</a>
+      <a href="Index.html#about" role="menuitem">Over mij</a>
+      <a href="Index.html#projects" role="menuitem">Projecten</a>
+      <a href="Index.html#wpl2" role="menuitem">WPL2 Case</a>
+      <a href="Index.html#free" role="menuitem">Hobby's</a>
+      <a href="WPL1%20%26%20WPL2.html" role="menuitem">WPL1 &amp; WPL2</a>
+      <a href="Index.html#contact" role="menuitem">Contact</a>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section id="wpl" class="container" aria-labelledby="wplTitle">
+      <h2 id="wplTitle" class="section-title">WPL1 &amp; WPL2</h2>
+
+      <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+        <div style="flex:1; min-width:220px;">
+          <div style="background:var(--card); padding:1rem; border-radius:12px; box-shadow:var(--shadow);">
+            <strong>Eindreflectie WPL2</strong>
+            <p style="color:var(--muted); margin:0.5rem 0">Reflectie over proces en resultaten.</p>
+            <a class="btn" href="downloads/Eindreflectie_Sinap_Arnd_WPL2.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download Eindreflectie WPL2">PDF</a>
+          </div>
+        </div>
+        <div style="flex:1; min-width:220px;">
+          <div style="background:var(--card); padding:1rem; border-radius:12px; box-shadow:var(--shadow);">
+            <strong>WPL1 opdrachten</strong>
+            <p style="color:var(--muted); margin:0.5rem 0">Overzicht opdrachten.</p>
+            <div style="display:flex; gap:0.5rem;">
+              <a class="btn" href="WPL1_opdrachten.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download WPL1 PDF">PDF</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div style="max-width:var(--max-width); margin:0 auto; padding:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap;">
+        <div>© <strong>Sinap Arnd</strong> — Student Digitale Vormgeving</div>
+        <div class="socials" style="display:flex; gap:0.6rem; align-items:center;">
+          <a href="Index.html" class="secondary" aria-label="Terug naar home">Home</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="Index.js"></script>
+</body>
+</html>
